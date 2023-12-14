@@ -24,7 +24,7 @@ env:
 
 jobs:
   integration:
-    uses: craig-johnson1987/02_06_challenge_develop_a_ci_pipeline/blob/main/.github/workflows/python-app.yml@main
+    uses: ./02_06_challenge_develop_a_ci_pipeline/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       
