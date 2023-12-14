@@ -21,10 +21,9 @@ env:
   # github.repository as <account>/<repo>
   IMAGE_NAME: ${{ github.repository }}
 
-
 jobs:
   integration:
-    uses: /craig-johnson1987/02_06_challenge_develop_a_ci_pipeline/.github/workflows/python-app.yml@main
+    uses: craig-johnson1987/02_06_challenge_develop_a_ci_pipeline/.github/workflows/python-app.yml@main
     permissions:
       contents: read
       
